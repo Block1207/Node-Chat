@@ -1,0 +1,23 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cms.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.7",
+    "prompt-sync": "^4.2.0",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Fuck you my guy !!!\" && exit 1",
+    "startServer": "nodemon server.js",
+    "startClient": "nodemon client.js"
+  },
+  "author": "Block1207 + Gamer_si",
+  "license": "ISC"
+}
